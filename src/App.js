@@ -11,6 +11,7 @@ const [product, setProcduct] = useState({
   price: 10,
   productBy: "Online Learning"
 });
+
 const makePayment = token => {
   const body = {
     token,
